@@ -1,0 +1,475 @@
+/* ////////////////////////    Prescription page  //////////////////////////  */
+.prescription2{
+	background: black;
+	color: white;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+}
+.container2{
+	background: lightgrey;
+	color: black;
+}
+.row{	
+	height: 50px;
+}
+.col-6,.col-3,.col-4{
+	border: 1px solid black;
+}
+
+/* ///////////  About page ////////////////////////// */
+@import url('https://fonts.googleapis.com/css2?family=Bitter:ital,wght@1,500&family=Edu+NSW+ACT+Foundation&family=Merriweather:ital@1&family=Montserrat&family=Poppins:wght@600&display=swap');
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+}
+
+.header1 {
+  width: 100%;
+  height: 70vh;
+  overflow: hidden;
+  position: relative;
+  object-fit: cover;
+  margin-bottom: 0rem;
+}
+
+.header-image1 {
+  width: 100%;
+  /* position: absolute; */
+  /* top: -20%; */
+  z-index: -1;
+  /* height: auto; */
+}
+
+.start1 {
+  width: 150px;
+  border-radius: 8%;
+  font-size: 20px;
+  height: 6vh;
+  background-color: #146356;
+  color: #FFF1BD;
+  border: none;
+  cursor: pointer;
+
+}
+
+.start1:hover {
+  box-shadow: 1px 3px 15px grey;
+  transition: all 0.1s;
+
+}
+
+.title1 {
+  /* margin: 0px 50px 0px 50px; */
+  /* padding: -100px; */
+  font-size: 2em;
+  font-weight: bold;
+  color: #362706;
+  text-align: center;
+  margin-top: -30px;
+  /* margin-bottom: 50px; */
+  /* font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; */
+}
+.title1 h1{
+	font-size: 4rem;
+	font-weight: bold;
+}
+
+.welcome1 {
+  display: flex;
+  justify-content: center;
+  margin: 0px;
+  margin-bottom: 0px;
+  background-color: #94A684;
+  padding: 5px;
+}
+
+h2 {
+  font-size: 40px;
+  color: #362706;
+  font-weight: 600;
+}
+
+/* .header-image1 img {
+  width: 100%;
+} */
+
+.nav-bar1 {
+  list-style: none;
+  font-weight: lighter;
+  display: flex;
+  gap: 1.5rem;
+  margin: 2px;
+  color: #362706;
+  cursor: pointer;
+  border-radius: 20%;
+  padding: 2px;
+ float: right;
+ margin-top: 30px;
+
+}
+
+.nav1:hover {
+  color: #1A4D2E;
+  transition: 0.2s ease-out;
+  /* box-shadow: 1px 3px 15px grey; */
+  /* transition: all 0.1s; */
+  border-radius: 20%;
+  padding: 0px;
+
+}
+
+.section-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 0rem;
+  background-color: #94A684;
+}
+
+.section-1 .section-1-item {
+  position: relative;
+  width: 350px;
+  /* width: 15rem; */
+  margin: 25px;
+  overflow: hidden;
+  border-radius: 10px;
+  background: #94A684;
+  /* border: 1px solid rgb(228, 228, 228); */
+  height: 40vh;
+  border: none;
+}
+
+.section-1 .section-1-item img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 50%;
+  background-color: #94A684;
+  /* border: 1px solid rgb(228, 228, 228); */
+  border-radius: 15px;
+  z-index: -1;
+  margin-left: 80px;
+}
+
+.section-1 .section-1-item .items-details {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  bottom: 3px;
+  color: #362706;
+  align-items: center;
+  border-radius: 0 0 15px 15px;
+  background-color: #94A684;
+  width: 100%;
+  height: 25%;
+  z-index: 2;
+}
+
+.section-1 .section-1-item .items-details p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 1.6rem;
+  letter-spacing: 0.7px;
+}
+
+.section-1 .section-1-item:hover {
+  box-shadow: 1px 3px 15px black;
+  transition: all 0.1s;
+}
+
+.section-2 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.section-2 .section-2-item {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  position: relative;
+}
+
+.section-2 .section-2-item .section-2-item-img img {
+  border-radius: 40%;
+}
+
+.section-3 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+
+.section-3 .section-3-item {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  position: relative;
+}
+
+@media (max-width: 600px) {
+  .section-2 {
+    display: grid;
+  }
+
+  .section-3 {
+    display: grid;
+  }
+}
+
+.ayurveda1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #F2F1EB;
+  height: 40vh;
+}
+
+.ayu1 {
+  flex: 1;
+  text-align: center;
+  font-size: 20px;
+  /* background-color: white; */
+  height: 100%;
+  width: 100%;
+  padding: 25px;
+  margin-left: 220px;
+  margin-right: 220px;
+}
+
+.ayurvedic-herbs1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #F2F1EB;
+  padding: 60px;
+
+}
+
+.ayurvedic-herbs-image1 {
+  flex: 1;
+  text-align: left;
+}
+
+.ayurvedic-herbs-image1 img {
+  max-width: 40%;
+  height: auto;
+  margin-left: 180px;
+}
+
+.ayurvedic-herbs-info1 {
+  flex: 1;
+  text-align: right;
+  margin-right: 180px;
+}
+
+.ayurvedic-herbs1 h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+  font-weight: 1200;
+}
+
+.ayurvedic-herbs1 p {
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+
+.diet-chart1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #F2F1EB;
+  padding: 60px;
+}
+
+.diet-chart-info1 {
+  flex: 1;
+  text-align: left;
+  margin-left: 180px;
+}
+
+.diet-chart1 h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.diet-chart1 p {
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+
+.diet-chart-image1 {
+  flex: 1;
+  text-align: right;
+  margin-right: 180px;
+}
+
+.diet-chart-image1 img {
+  max-width: 40%;
+  height: auto;
+}
+
+
+.yoga-exercise1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #F2F1EB;
+  padding: 60px;
+}
+
+.yoga-exercise-image1 {
+  flex: 1;
+  text-align: left;
+  margin-left: 180px;
+}
+
+.yoga-exercise-image1 img {
+  max-width: 40%;
+  height: auto;
+}
+
+.yoga-exercise-info1 {
+  flex: 1;
+  text-align: right;
+  margin-right: 180px;
+}
+
+.yoga-exercise1 h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.yoga-exercise1 p {
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+
+/* .footer1 {
+  background-color: #884A39;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  width: 100%;
+}
+
+.top1 {
+  display: flex;
+  background-color: black;
+  color: white;
+  justify-content: center;
+  margin: 0px;
+  width: 100%;
+}
+
+.bottom1 {
+  padding: 30px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.website1 .creator1 .contact1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+} */
+/* Footer Styles */
+/* Footer Styles */
+.footer1 {
+  background-color: #3b7d02; /* Green background color */
+  color: #ffffff; /* White text color */
+  padding: 50px 20px;
+  text-align: center;
+}
+
+/* Top Section Styles */
+.top1 {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+/* Bottom Section Styles */
+.bottom1 {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+/* Common Section Styles */
+.website1, .creator1, .contact1 {
+  flex: 1 0 30%; /* Adjust the width as needed */
+  margin-bottom: 20px;
+}
+
+/* Website Section Styles */
+.webname1 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.webabout1 {
+  font-size: 14px;
+}
+
+/* Creator Section Styles */
+.creatorhead1 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.name1 {
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+/* Contact Section Styles */
+.conracthead1 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.num1, .email1 {
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+/* Social Icons */
+.social-icons {
+  margin-top: 20px;
+}
+
+.social-icons a {
+  display: inline-block;
+  margin: 0 10px;
+  color: #ffffff;
+  font-size: 24px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.social-icons a:hover {
+  transform: scale(1.2);
+}
+
